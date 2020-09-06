@@ -1,0 +1,53 @@
+              this is file 1/2
+
+
+from ui1 import num1,num2,symbol
+##importing_values_from_ui1.py
+
+a = int(num1)
+b = int(num2)
+##turning_them_into_integers
+
+if (symbol=='+'):
+    ans = (a + b)
+
+if (symbol=='-'):
+    ans = (a - b)
+
+##checking_the_operation_entered_by_the_user
+
+if (symbol=='*'):
+    ans = (a * b)
+
+if (symbol=='/'):
+    ans = (a / b)
+
+print("   ")
+print("             ", ans)
+
+
+__________________________________________________________<this is the other part>_______________________________________________________________________________________________
+
+from time import sleep
+
+
+##all_the_blank_print_statments_and_space_is_for_esthetics_only
+
+print("                     Calculator                   ")
+d = input("Input_your_first_number: ")
+print("   ")
+sleep(.02)
+e = input("Input_your_operation: ")
+print("   ")
+sleep(.02)
+f = input("Input_your_second_number: ")
+
+if (d==''):
+    if (e==''):
+        if (f==''):
+            print("PLEASE_ENTER_A_NUMBER")
+##checking_if_the_input_is_blank
+else:
+    num1 = d
+    symbol = e
+    num2 = f
