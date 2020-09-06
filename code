@@ -1,12 +1,8 @@
-              this is file 1/2
-
 
 from ui1 import num1,num2,symbol
-##importing_values_from_ui1.py
 
 a = int(num1)
 b = int(num2)
-##turning_them_into_integers
 
 if (symbol=='+'):
     ans = (a + b)
@@ -26,12 +22,9 @@ print("   ")
 print("             ", ans)
 
 
-__________________________________________________________<this is the other part>_______________________________________________________________________________________________
+__________________________________________________________<this is the other part this most be in another directory but in the same file>_______________________________________________________________________________________________
 
 from time import sleep
-
-
-##all_the_blank_print_statments_and_space_is_for_esthetics_only
 
 print("                     Calculator                   ")
 d = input("Input_your_first_number: ")
@@ -46,7 +39,7 @@ if (d==''):
     if (e==''):
         if (f==''):
             print("PLEASE_ENTER_A_NUMBER")
-##checking_if_the_input_is_blank
+
 else:
     num1 = d
     symbol = e
