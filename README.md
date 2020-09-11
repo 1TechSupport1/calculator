@@ -1,20 +1,31 @@
-it's a calculator!
+It's a calculator!
 
-yea your computer dose come with a better one
+Yea your computer dose come with a better one
 
-but you can change  the colour of the buttons and the placement by changing the colur in the code over hear
+But you can change  the colour of the buttons and the placement by changing the colur in the code over hear
 
-                                                                                             \/             \/
+                                             \/      \/                                      \/             \/
               button_1 = Button(text="1", padx=17, pady=12, command=lambda: number(1), fg="white", bg="#fc5e03")
-                                                                                             /\             /\
-                                                                                         font colur    button colur
+                                             /\      /\                                     /\             /\
+                                           size                                         font colur    button colur
                                                                                          
+                                 \/        \/                                                 
+               button_1.grid(row=4, column=0)  ---<<<placement
+                                 /\        /\      
+                                        
+                                 change these values all similar lines of code 
+                                 
+                                 
                                                                                         
-and if it dosent work then try installing Tkinter on your pc with this command in your command promt or terminal 
+It's based of of tkinter fairly simple, and Im not the first to come up with this                                                                                       
+
+And if it dosent work then try installing Tkinter on your pc with this command in your command promt or terminal 
 
                                               pip install tkinter   
 
-you are not useing pycharm which is another way to edit python code it is a great editor you should try it if you have not hear is a link > https://www.jetbrains.com/pycharm/download/#section=windows < 
+If you are not useing pycharm which is another way to edit python code it is a great editor you should try it if you have not hear is a link > https://www.jetbrains.com/pycharm/download/#section=windows < 
 
-and if you are not femiliar with tkinter watch this subscribe to this chanel > https://www.youtube.com/watch?v=YXPyB4XeYLA < 
+And if you are not femiliar with tkinter watch this and subscribe to this chanel > https://www.youtube.com/watch?v=YXPyB4XeYLA < 
+
+If you like it, or hate it fore some reson then let me know over hear > ajaykavin415@gmail.com <
 
