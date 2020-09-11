@@ -1,46 +1,120 @@
+from tkinter import *
 
-from ui1 import num1,num2,symbol
-
-a = int(num1)
-b = int(num2)
-
-if (symbol=='+'):
-    ans = (a + b)
-
-if (symbol=='-'):
-    ans = (a - b)
-
-##checking_the_operation_entered_by_the_user
-
-if (symbol=='*'):
-    ans = (a * b)
-
-if (symbol=='/'):
-    ans = (a / b)
-
-print("   ")
-print("             ", ans)
+root = Tk()
+root.title("Calculator")
+display = Entry(0, width=30, border=5,)
+display.grid(row=0, column=0, columnspan=4)
 
 
-__________________________________________________________<this is the other part this most be in another directory but in the same file>_______________________________________________________________________________________________
+def number(num):
+    c = display.get()
+    display.delete(0, END)
+    display.insert(0, str(c) + str(num))
 
-from time import sleep
 
-print("                     Calculator                   ")
-d = input("Input_your_first_number: ")
-print("   ")
-sleep(.02)
-e = input("Input_your_operation: ")
-print("   ")
-sleep(.02)
-f = input("Input_your_second_number: ")
+def clear():
+    display.delete(0, END)
 
-if (d==''):
-    if (e==''):
-        if (f==''):
-            print("PLEASE_ENTER_A_NUMBER")
 
-else:
-    num1 = d
-    symbol = e
-    num2 = f
+def p():
+    f = display.get()
+    global cu
+    cu = f
+    int(cu)
+    display.delete(0, END)
+    global s
+    s = "p"
+
+
+def m():
+    global cu
+    cu = display.get()
+    display.delete(0, END)
+    global s
+    s = "m"
+
+
+def mu():
+    global cu
+    cu = display.get()
+    display.delete(0, END)
+    global s
+    s = "mu"
+
+
+def d():
+    global cu
+    cu = display.get()
+    display.delete(0, END)
+    global s
+    s = "d"
+
+
+def eq():
+    a = int(cu)
+    b = display.get()
+    b1 = int(b)
+    display.delete(0, END)
+
+    if s == "p":
+        ans = (a + b1)
+        display.insert(0, ans)
+
+    if s == "m":
+        ans = (a - b1)
+        display.insert(0, ans)
+
+    if s == "mu":
+        ans = (a * b1)
+        display.insert(0, ans)
+
+    if s == "d":
+        ans = (a / b1)
+        display.insert(0, ans)
+
+
+
+button_1 = Button(text="1", padx=17, pady=12, command=lambda: number(1), fg="white", bg="#fc5e03")
+button_2 = Button(text="2", padx=17, pady=12, command=lambda: number(2), fg="white", bg="#fc5e03")
+button_3 = Button(text="3", padx=17, pady=12, command=lambda: number(3), fg="white", bg="#fc5e03")
+
+button_4 = Button(text="4", padx=17, pady=12, command=lambda: number(4), fg="white", bg="#fc5e03")
+button_5 = Button(text="5", padx=17, pady=12, command=lambda: number(5), fg="white", bg="#fc5e03")
+button_6 = Button(text="6", padx=17, pady=12, command=lambda: number(6), fg="white", bg="#fc5e03")
+
+button_7 = Button(text="7", padx=17, pady=12, command=lambda: number(7), fg="white", bg="#fc5e03")
+button_8 = Button(text="8", padx=17, pady=12, command=lambda: number(8), fg="white", bg="#fc5e03")
+button_9 = Button(text="9", padx=17, pady=12, command=lambda: number(9), fg="white", bg="#fc5e03")
+
+button_0 = Button(text="0", padx=17, pady=12, command=lambda: number(0), fg="white", bg="#fc5e03")
+button_plus = Button(text="+", padx=15, pady=12, command=p, fg="white", bg="#fc5e03")
+button_minus = Button(text="-", padx=17, pady=12, command=m, fg="white", bg="#fc5e03")
+button_multi = Button(text="*", padx=17, pady=12, fg="white", command=mu, bg="#fc5e03")
+
+button_divide = Button(text="/", padx=17, pady=12, command=d, fg="white", bg="#fc5e03")
+button_Equal = Button(text="=", padx=17, pady=12, command=eq, fg="Black", bg="white")
+button_clear = Button(text="C", padx=16, pady=12, command=clear, fg="black", bg="white")
+
+button_9.grid(row=2, column=2)
+button_8.grid(row=2, column=1)
+button_7.grid(row=2, column=0)
+
+button_6.grid(row=3, column=2)
+button_5.grid(row=3, column=1)
+button_4.grid(row=3, column=0)
+
+button_3.grid(row=4, column=2)
+button_2.grid(row=4, column=1)
+button_1.grid(row=4, column=0)
+
+button_0.grid(row=5, column=1)
+
+button_plus.grid(row=4, column=3)
+button_minus.grid(row=3, column=3)
+button_multi.grid(row=2, column=3)
+button_divide.grid(row=1, column=3)
+
+button_Equal.grid(row=5, column=3)
+button_clear.grid(row=1, column=2)
+
+root.mainloop()
