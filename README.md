@@ -10,8 +10,11 @@ but you can change  the colour of the buttons and the placement by changing the 
                                                                                          font colur    button colur
                                                                                          
                                                                                         
-and if it dosent work then try installing Tkinter on your pc of if you are not useing pycharm which is another way to edit python code it is a great editor you should try it if you have not hear is a link > https://www.jetbrains.com/pycharm/download/#section=windows < 
+and if it dosent work then try installing Tkinter on your pc with this command in your command promt or terminal 
 
+                                              pip install tkinter   
 
+you are not useing pycharm which is another way to edit python code it is a great editor you should try it if you have not hear is a link > https://www.jetbrains.com/pycharm/download/#section=windows < 
 
-                                                                                                             
+and if you are not femiliar with tkinter watch this subscribe to this chanel > https://www.youtube.com/watch?v=YXPyB4XeYLA < 
+
