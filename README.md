@@ -25,7 +25,12 @@ And if it dosent work then try installing Tkinter on your pc with this command i
 
 If you are not useing pycharm which is another way to edit python code it is a great editor you should try it if you have not hear is a link > https://www.jetbrains.com/pycharm/download/#section=windows < 
 
-And if you are not femiliar with tkinter watch this and subscribe to this chanel > https://www.youtube.com/watch?v=YXPyB4XeYLA < 
+And if you are not femiliar with tkinter watch this > https://www.youtube.com/watch?v=YXPyB4XeYLA < 
 
 If you like it, or hate it fore some reson then let me know over hear > ajaykavin415@gmail.com <
+
+Hope you liked it, if so please star this repository
+And don't forget to take a look at this other repositor I made 
+> https://github.com/Ajaykumar415/space-pew-pew- <
+
 
