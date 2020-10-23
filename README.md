@@ -19,13 +19,7 @@ But you can change  the colour of the buttons and the placement by changing the 
                                                                                         
 It's based of of tkinter fairly simple, and Im not the first to come up with this                                                                                       
 
-And if it dosent work then try installing Tkinter on your pc with this command in your command promt or terminal 
-
-                                              pip install tkinter   
-
-If you are not useing pycharm which is another way to edit python code it is a great editor you should try it if you have not hear is a link > https://www.jetbrains.com/pycharm/download/#section=windows < 
-
-And if you are not femiliar with tkinter watch this > https://www.youtube.com/watch?v=YXPyB4XeYLA < 
+And tkinter comes  preinstalled in python  
 
 If you like it, or hate it fore some reson then let me know over hear > ajaykavin415@gmail.com <
 
