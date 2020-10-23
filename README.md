@@ -4,8 +4,8 @@ Yea your computer dose come with a better one
 
 But you can change  the colour of the buttons and the placement by changing the colour in the code over hear
 
-                                             \/      \/                                      \/             \/
-              button_1 = Button(text="1", padx=17, pady=12, command=lambda: number(1), fg="white", bg="#fc5e03")
+                                             \/      \/                                      \/             \/       i have used hex code hear for a mire precice colour but you 
+              button_1 = Button(text="1", padx=17, pady=12, command=lambda: number(1), fg="white", bg="#fc5e03")     use regular colur names if you want to
                                              /\      /\                                     /\             /\
                                            size                                         font colur    button colur
                                                                                          
