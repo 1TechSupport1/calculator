@@ -19,12 +19,8 @@ But you can change  the colour of the buttons and the placement by changing the 
                                                                                         
 It's based of of tkinter fairly simple, and Im not the first to come up with this                                                                                       
 
-And tkinter comes  preinstalled in python  
+And tkinter comes  preinstalled in python 
 
-If you like it, or hate it fore some reson then let me know over hear > ajaykavin415@gmail.com <
+    if it dose not work i don't know why ¯\_(ツ)_/¯
 
-Hope you liked it, if so please star this repository
-And don't forget to take a look at this other repositor I made 
-> https://github.com/Ajaykumar415/space-pew-pew- <
-
-
+If you like it then star this repository, or hate it fore some reson then let me know over hear > ajaykavin415@gmail.com <
